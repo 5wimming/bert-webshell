@@ -1,4 +1,5 @@
 参考：https://github.com/yaleimeng/TextClassify_with_BERT
+说明：https://blog.csdn.net/qq_34101364/article/details/115338445
 
 # TextClassify_with_BERT
 使用BERT模型做文本分类；面向工业用途
@@ -21,7 +22,7 @@
 > 如果仅对test.txt执行预测，只需要把 do_predict 设为True，do_train 与do_eval 设置为false。
 + 训练+评估：运行train_eval.py </br>
 > 如果上面步骤进展顺利，恭喜，在输出目录内已经生成了训练和评估结果。屏幕上也打印出了评估准确率等。</br>
-+ 测试：先修改自己要测试的问题，运行predict_GPU.py</br>
++ 测试：先修改自己要测试的问题，运行predict.py</br>
 2. 使用自己的真实数据集。修改训练参数，重新进行训练和评估。
 3. 搭建分类预测服务
 + 使用自己的pb模型+[开源框架](https://github.com/macanv/BERT-BiLSTM-CRF-NER)。 【强烈推荐】
